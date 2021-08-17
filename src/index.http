@@ -1,0 +1,14 @@
+GET http://localhost:8003/public HTTP/1.1
+
+###
+
+GET http://localhost:8003/sign/newUser HTTP/1.1
+
+###
+
+GET http://localhost:8003/my-profile HTTP/1.1
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJuZXdVc2VyIiwiaWF0IjoxNjI5MTg4MzUzfQ.EBOIHYVheq0maBsUS8yoWksllajKL8w2ZZoGgsVyvtMXlg9eneWE6DET5OwAOwsfvifS53aDV4IkxD2iyLf9pDEdmIJDIHvhuIiTkhxss3YyjONaCIx_dfOTEx8icsRLkVDB7R99iow2_p7d6oBnX-V-qE-Qq9btCEpgvoBGQPOKDXuhDz306EefR-QgD6iGdBuV_doygK48lq492sBwWncXnB20_QrFSqKx304aHoBzOqUVuKNQkvmoU8dMglQsQ_d5bw-TziwdTo41VhrBZlhf_nqo5PJHThXu_CeH6_Sd21zl8bALy2ls5lwL0eQDLUD70tzu0ardFMI5iBwBlw
+
+###
+
+GET http://localhost:8003/routeThatDoesntExist HTTP/1.1
